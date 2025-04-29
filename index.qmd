@@ -1,5 +1,8 @@
 ---
 title: My example nbstata document
+format:
+  html:
+    embed-resources: true
 jupyter: nbstata
 ---
 
