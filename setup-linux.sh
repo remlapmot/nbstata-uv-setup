@@ -2,7 +2,7 @@
 # Required so that directory containing stata/stata-mp binary is on PATH
 export PATH=$PATH:/usr/local/stata18
 
-# Required so nbstata can find pystata package
+# Required so Python can find pystata package
 export PYTHONPATH=/usr/local/stata18/utilities
 
 # Setup virtual environment

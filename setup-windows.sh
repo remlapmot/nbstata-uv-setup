@@ -1,4 +1,4 @@
-# Required so nbstata can find pystata package
+# Required so Python can find pystata package
 export PYTHONPATH="C:/Program Files/Stata18/utilities"
 
 # Setup virtual environment
