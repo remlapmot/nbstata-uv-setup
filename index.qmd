@@ -1,0 +1,8 @@
+---
+title: My example nbstata document
+jupyter: nbstata
+---
+
+```{stata}
+display "Hello, World!"
+```
