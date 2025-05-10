@@ -24,3 +24,7 @@ uv add jupyterlab nbstata jupyterlab_stata_highlight2
 
 # Deactivate virtual environment
 deactivate
+
+# To restore from uv.lock
+# uv sync # creates .venv
+# source .venv/bin/activate
