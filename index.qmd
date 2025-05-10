@@ -9,3 +9,7 @@ jupyter: nbstata
 ```{stata}
 display "Hello, World!"
 ```
+
+```{stata}
+twoway function x^3
+```
