@@ -18,5 +18,9 @@ python -m nbstata.install
 # Do work
 quarto render index.qmd
 
+# record pyproject.toml
+uv init
+uv add jupyterlab nbstata jupyterlab_stata_highlight2
+
 # Deactivate virtual environment
 deactivate
