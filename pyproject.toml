@@ -1,7 +1,7 @@
 [project]
 name = "nbstata-uv-setup"
 version = "0.1.0"
-description = "Add your description here"
+description = "This project demonstrates how to use the nbstata Jupyter kernel in a uv virtual environment, so that one can render Quarto documents using this engine."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
