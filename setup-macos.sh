@@ -16,7 +16,7 @@ uv pip install jupyterlab nbstata jupyterlab_stata_highlight2
 python -m nbstata.install
 
 # Do work
-# quarto render index.qmd --execute --execute-daemon-restart
+quarto render index.qmd
 
 # Deactivate virtual environment
 deactivate
