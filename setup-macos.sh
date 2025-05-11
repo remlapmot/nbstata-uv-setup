@@ -18,13 +18,22 @@ python -m nbstata.install
 # Do work
 quarto render index.qmd
 
-# record pyproject.toml
-uv init
-uv add jupyterlab nbstata jupyterlab_stata_highlight2
-
 # Deactivate virtual environment
 deactivate
 
-# To restore from uv.lock
-# uv sync # creates .venv
+# Alternative code to define as Python project, e.g. record pyproject.toml
+export PYTHONPATH=/Applications/Stata/utilities
+uv init
+uv add jupyterlab nbstata jupyterlab_stata_highlight2
+source .venv/bin/activate
+python -m nbstata.install
+quarto render index.qmd
+deactivate
+
+# To restore from pyproject.toml and uv.lock (recreates .venv)
+# export PYTHONPATH=/Applications/Stata/utilities
+# uv sync
 # source .venv/bin/activate
+# python -m nbstata.install
+# quarto render index.qmd
+# deactivate
